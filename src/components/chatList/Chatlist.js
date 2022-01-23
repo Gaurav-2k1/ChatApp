@@ -2,7 +2,6 @@ import React from 'react';
 import Person from './Person';
 import './style.scss'
 import Persondata from './Persondata';
-import { Grid } from '@material-ui/core';
 
 const Chatlist = (setselected) => {
 

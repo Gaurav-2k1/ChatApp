@@ -5,12 +5,7 @@ import './chat.scss'
 import { Box, TextField } from '@material-ui/core';
 import IndivisualChat from './indivisualchat/IndivisualChat';
 import Chatlist from '../chatList/Chatlist';
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link
-} from 'react-router-dom';
+
 
 const Chats = () => {
 
