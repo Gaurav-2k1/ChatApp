@@ -1,0 +1,27 @@
+.persontile {
+  width: 100%;
+  height: 10vh;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: all linear 0.5s ;
+
+  cursor: pointer;
+  .profile {
+    display: flex;
+    flex-direction: row;
+    img {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 2rem;
+      padding: 2px;
+      margin: 2px 1rem;
+    }
+  }
+}
+
+.persontile :hover{
+    zoom: 105%;
+}

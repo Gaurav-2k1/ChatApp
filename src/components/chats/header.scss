@@ -1,0 +1,32 @@
+.chatnav {
+  width: 100%;
+  height: 5vh;
+  padding: 1rem 1.5rem;
+}
+.firstChild {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .sort {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.secondChild {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  .profile {
+    display: flex;
+    flex-direction: row;
+    img {
+      width: 2.5rem;
+      border-radius: 2rem;
+      padding: 2px;
+      margin: 2px 1rem;
+      margin-left: 4rem;
+    }
+  }
+}

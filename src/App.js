@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Grid } from '@material-ui/core';
+import Chats from './components/chats/Chats';
+import Navbar from './components/Navbar/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  return <>
+    <Grid container spacing={2} style={{ width: '100%' }}>
+
+      <Grid item xs={12} md={1}>
+        <Navbar />
+      </Grid>
+      <Grid item xs={12} md={11}>
+        <Chats />
+      </Grid>
+    </Grid>
+
+  </>;
+};
 
 export default App;
+
